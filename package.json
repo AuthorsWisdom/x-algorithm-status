@@ -1,0 +1,7 @@
+{
+  "name": "x-algorithm-status",
+  "private": true,
+  "type": "module",
+  "description": "Daily readings from xai-org/x-algorithm for the X Algorithm Tracker page at wisdomnexus.io/x-algorithm.",
+  "scripts": { "status": "node src/status.mjs" }
+}

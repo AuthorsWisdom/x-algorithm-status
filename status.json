@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-07T19:51:23.143Z",
+  "label": "NOV 7, 2026",
+  "commit": "3b6919f",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/3b6919f87532e57063bb3f1e85c2f509323b513e",
+  "sync": "2026-11-06T16:00:45Z",
+  "headline_moved": [],
+  "other_changes": 0,
+  "headline": {
+    "ReplyWeight": 5,
+    "QuoteWeight": 5,
+    "ShareViaDmWeight": 5,
+    "ShareViaCopyLinkWeight": 20,
+    "ShareWeight": 2.118,
+    "RetweetWeight": 1,
+    "FavoriteWeight": 0.708,
+    "ClickWeight": 0.274,
+    "OpenLinkWeight": 0.2,
+    "DwellWeight": 0.05,
+    "PhotoExpandWeight": 0.05,
+    "VideoOpenWeight": 0,
+    "ProfileClickWeight": 0,
+    "NotInterestedWeight": -53.07,
+    "MuteAuthorWeight": -58.8,
+    "BlockAuthorWeight": -31.2,
+    "ReportWeight": -234,
+    "EnablePhoenixOonReplies": false,
+    "MAX_POST_AGE": 172800,
+    "ColdStartFollowerCap": 50000,
+    "ColdStartImpressionThreshold": 200,
+    "ColdStartMaxPostAgeSecs": 7200
+  }
+}
