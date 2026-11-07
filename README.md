@@ -9,3 +9,14 @@ when it was last checked and whether anything moved.
 tracker-feed repo. Change them there first, then copy them here.
 
 Run by hand: `node src/status.mjs`
+
+## Page blocks
+
+`node src/embeds.mjs` builds `build/bars.html` and `build/changes.html` from `status.json`. Each is
+the `html` of one beehiiv `embed` node on the tracker page (ids `a14025b5-…` bars, `a923f2bf-…`
+what changed, `e504bff2-…` the "Last checked" line). They render today's numbers as plain markup,
+then re-render from the live `status.json`, so a weight change shows on the page without a publish.
+Only re-save the embeds when the design changes.
+
+`data/changes.json` is the record of headline moves (seeded from the private repo's changelog on
+2026-11-07); the daily run appends to it. The "What changed" block shows the four most recent.

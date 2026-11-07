@@ -1,11 +1,108 @@
 {
-  "checked_at": "2026-11-07T20:35:55.398Z",
+  "checked_at": "2026-11-07T20:40:34.301Z",
   "label": "NOV 7, 2026",
   "commit": "3b6919f",
   "commit_url": "https://github.com/xai-org/x-algorithm/commit/3b6919f87532e57063bb3f1e85c2f509323b513e",
   "sync": "2026-11-06T16:00:45Z",
   "headline_moved": [],
-  "other_changes": 0,
+  "helps": [
+    {
+      "name": "ShareViaCopyLinkWeight",
+      "label": "Share (copy link)",
+      "value": 20
+    },
+    {
+      "name": "ReplyWeight",
+      "label": "Reply",
+      "value": 5
+    },
+    {
+      "name": "QuoteWeight",
+      "label": "Quote post",
+      "value": 5
+    },
+    {
+      "name": "FollowAuthorWeight",
+      "label": "Follow",
+      "value": 4
+    },
+    {
+      "name": "RetweetWeight",
+      "label": "Repost",
+      "value": 1
+    },
+    {
+      "name": "FavoriteWeight",
+      "label": "Like",
+      "value": 0.708
+    },
+    {
+      "name": "OpenLinkWeight",
+      "label": "Link click",
+      "value": 0.2
+    }
+  ],
+  "hurts": [
+    {
+      "name": "ReportWeight",
+      "label": "Report",
+      "value": -234
+    },
+    {
+      "name": "MuteAuthorWeight",
+      "label": "Mute",
+      "value": -58.8
+    },
+    {
+      "name": "NotInterestedWeight",
+      "label": "Not interested",
+      "value": -53.07
+    },
+    {
+      "name": "BlockAuthorWeight",
+      "label": "Block",
+      "value": -31.2
+    }
+  ],
+  "recent": [
+    {
+      "date": "2026-11-05",
+      "commit": "021afa4",
+      "name": "FavoriteWeight",
+      "from": 0.66,
+      "to": 0.708,
+      "label": "Likes",
+      "up": true
+    },
+    {
+      "date": "2026-11-05",
+      "commit": "021afa4",
+      "name": "ShareWeight",
+      "from": 2,
+      "to": 2.118,
+      "label": "Shares",
+      "up": true
+    },
+    {
+      "date": "2026-11-05",
+      "commit": "021afa4",
+      "name": "VideoOpenWeight",
+      "from": 0.02,
+      "to": 0,
+      "label": "Video opens",
+      "up": false
+    },
+    {
+      "date": "2026-11-05",
+      "commit": "021afa4",
+      "name": "ClickWeight",
+      "from": 0.3,
+      "to": 0.274,
+      "label": "Clicks",
+      "up": false
+    }
+  ],
+  "since": "Nov 5",
   "headline": {
     "ReplyWeight": 5,
     "QuoteWeight": 5,
