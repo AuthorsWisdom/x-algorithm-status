@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-11T19:07:39.910Z",
-  "sync": "2026-11-10T16:00:31Z",
-  "commit": "f06f45a",
-  "commit_date": "2026-11-11",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/f06f45adc05578198e672db6c563a0435e7232dd",
+  "read_at": "2026-11-12T19:24:47.329Z",
+  "sync": "2026-11-11T16:00:37Z",
+  "commit": "cec6168",
+  "commit_date": "2026-11-12",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/cec61682937a4899360a340acba9e9b9bb8f43e3",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -63,7 +63,7 @@
     },
     "ShadowTrafficPhoenixClusterRates": {
       "key": "rust_home_mixer_shadow_traffic_phoenix_cluster_rates",
-      "value": "vec![\n        \"Experiment18Fou:0.3\".to_string(),\n        \"Experiment19Fou:0.3\".to_string(),\n        \"Experiment22Fou:0.3\".to_string(),\n        \"Experiment23Fou:0.3\".to_string(),\n        \"Experiment24Fou:0.3\".to_string(),\n        \"Experiment25Fou:0.3\".to_string(),\n        \"Experiment26Fou:0.3\".to_string(),\n        \"Experiment27Fou:0.3\".to_string(),\n        \"Experiment28Fou:0.3\".to_string()\n    ]"
+      "value": "vec![\n        \"Experiment12Fou:0\".to_string(),\n        \"Experiment18Fou:0.3\".to_string(),\n        \"Experiment19Fou:0.3\".to_string(),\n        \"Experiment22Fou:0.3\".to_string(),\n        \"Experiment23Fou:0.3\".to_string(),\n        \"Experiment24Fou:0.3\".to_string(),\n        \"Experiment25Fou:0.3\".to_string(),\n        \"Experiment26Fou:0.3\".to_string(),\n        \"Experiment27Fou:0.3\".to_string(),\n        \"Experiment28Fou:0.3\".to_string(),\n        \"Experiment29Fou:0.3\".to_string()\n    ]"
     },
     "ShadowTrafficPhoenixClusterAggregationTypes": {
       "key": "rust_home_mixer_shadow_traffic_phoenix_cluster_aggregation_types",
@@ -119,10 +119,6 @@
     },
     "EnablePhoenixMOESource": {
       "key": "rust_home_mixer_enable_phoenix_moe_source",
-      "value": false
-    },
-    "EnableShuffledHistoryRetrieval": {
-      "key": "rust_home_mixer_enable_shuffled_history_retrieval",
       "value": false
     },
     "PhoenixMoeCodivertViewerIsControl": {
