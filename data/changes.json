@@ -124,5 +124,12 @@
     "name": "VideoOpenWeight",
     "from": 0.02,
     "to": 0
+  },
+  {
+    "date": "2026-11-14",
+    "commit": "590f392",
+    "name": "ShareViaCopyLinkWeight",
+    "from": 20,
+    "to": 0
   }
 ]

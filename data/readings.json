@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-13T19:03:20.484Z",
-  "sync": "2026-11-11T16:00:37Z",
-  "commit": "cec6168",
-  "commit_date": "2026-11-12",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/cec61682937a4899360a340acba9e9b9bb8f43e3",
+  "read_at": "2026-11-14T17:33:10.266Z",
+  "sync": "2026-11-12T16:00:36Z",
+  "commit": "590f392",
+  "commit_date": "2026-11-13",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/590f3926e5bc33c50d9ece13953623e1e75ee595",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -177,6 +177,10 @@
       "key": "rust_home_mixer_phoenix_xds_retrieval_max_retries",
       "value": 0
     },
+    "PhoenixXdsRetrievalUncompressedClustersList": {
+      "key": "rust_home_mixer_phoenix_xds_retrieval_uncompressed_clusters_list",
+      "value": "vec![]"
+    },
     "PhoenixRetrievalExcludeSeenPosts": {
       "key": "rust_home_mixer_phoenix_retrieval_exclude_seen_posts",
       "value": false
@@ -323,7 +327,7 @@
     },
     "ShareViaCopyLinkWeight": {
       "key": "rust_home_mixer_share_via_copy_link_weight",
-      "value": 20
+      "value": 0
     },
     "DwellWeight": {
       "key": "rust_home_mixer_dwell_weight",
@@ -420,6 +424,14 @@
     "VMRankerSendHistoryTopics": {
       "key": "rust_home_mixer_vm_ranker_send_history_topics",
       "value": false
+    },
+    "VMRankerSendDppHistory": {
+      "key": "rust_home_mixer_vm_ranker_send_dpp_history",
+      "value": false
+    },
+    "VMRankerDppHistoryMaxItems": {
+      "key": "rust_home_mixer_vm_ranker_dpp_history_max_items",
+      "value": 200
     },
     "HistoryTopicsEnabled": {
       "key": "rust_home_mixer_history_topics_enabled",
@@ -664,6 +676,10 @@
     "AdsBlenderType": {
       "key": "rust_home_mixer_ads_blender",
       "value": "\"slot_spread\""
+    },
+    "AdsFollowingMinPosts": {
+      "key": "rust_home_mixer_ads_following_min_posts",
+      "value": 5
     },
     "EnableAdsBrandSafetyVerdictV2": {
       "key": "rust_home_mixer_ads_bs_v2_exp_enabled",
