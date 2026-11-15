@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-14T17:33:10.266Z",
-  "sync": "2026-11-12T16:00:36Z",
-  "commit": "590f392",
-  "commit_date": "2026-11-13",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/590f3926e5bc33c50d9ece13953623e1e75ee595",
+  "read_at": "2026-11-15T18:21:40.592Z",
+  "sync": "2026-11-13T16:00:28Z",
+  "commit": "30647a8",
+  "commit_date": "2026-11-14",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/30647a85a20cbdd114169beb9973680c4dc4f401",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -427,11 +427,11 @@
     },
     "VMRankerSendDppHistory": {
       "key": "rust_home_mixer_vm_ranker_send_dpp_history",
-      "value": false
+      "value": true
     },
     "VMRankerDppHistoryMaxItems": {
       "key": "rust_home_mixer_vm_ranker_dpp_history_max_items",
-      "value": 200
+      "value": 50
     },
     "HistoryTopicsEnabled": {
       "key": "rust_home_mixer_history_topics_enabled",
