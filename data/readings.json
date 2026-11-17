@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-16T21:30:00.567Z",
-  "sync": "2026-11-13T16:00:28Z",
-  "commit": "30647a8",
-  "commit_date": "2026-11-14",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/30647a85a20cbdd114169beb9973680c4dc4f401",
+  "read_at": "2026-11-17T20:20:30.686Z",
+  "sync": "2026-11-16T16:00:37Z",
+  "commit": "a284320",
+  "commit_date": "2026-11-17",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/a284320b66a9dce35e6f5d6b052ee308eeb12326",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -389,6 +389,22 @@
       "key": "rust_home_mixer_not_dwelled_weight",
       "value": -0.02
     },
+    "NotDwelledPowerExponent": {
+      "key": "rust_home_mixer_not_dwelled_power_exponent",
+      "value": 0
+    },
+    "NotDwelledPowerOffset": {
+      "key": "rust_home_mixer_not_dwelled_power_offset",
+      "value": 0
+    },
+    "ValueModelMode": {
+      "key": "rust_home_mixer_value_model_mode",
+      "value": "\"weighted\""
+    },
+    "MultiplicativeVmEngageBias": {
+      "key": "rust_home_mixer_multiplicative_vm_engage_bias",
+      "value": 0
+    },
     "EnableFollowingRepliedUsersFacepile": {
       "key": "rust_home_mixer_enable_following_replied_users_facepile",
       "value": false
@@ -427,7 +443,7 @@
     },
     "VMRankerSendDppHistory": {
       "key": "rust_home_mixer_vm_ranker_send_dpp_history",
-      "value": true
+      "value": false
     },
     "VMRankerDppHistoryMaxItems": {
       "key": "rust_home_mixer_vm_ranker_dpp_history_max_items",
@@ -705,6 +721,22 @@
       "key": "rust_home_mixer_ads_time_gap_min_organic_gap",
       "value": 3
     },
+    "AdsUserStateKeepPct": {
+      "key": "rust_home_mixer_ads_user_state_keep_pct",
+      "value": "vec![]"
+    },
+    "AdsUserStateSpacing": {
+      "key": "rust_home_mixer_ads_user_state_spacing",
+      "value": "vec![]"
+    },
+    "EnableAdsOnlyTimeline": {
+      "key": "rust_home_mixer_enable_ads_only_timeline",
+      "value": false
+    },
+    "AdsOnlyTimelineViewerIds": {
+      "key": "rust_home_mixer_ads_only_timeline_viewer_ids",
+      "value": "vec![]"
+    },
     "UseXdsForUas": {
       "key": "rust_home_mixer_use_xds_for_uas",
       "value": true
@@ -968,6 +1000,10 @@
     "FS_PATH": {
       "key": null,
       "value": "\"/usr/local/config/features/home-mixer/main/rust_home_mixer.yml\""
+    },
+    "FS_EXPERIMENT_EXCLUDED_USER_IDS_PARAM": {
+      "key": null,
+      "value": "\"rust_home_mixer_experiment_excluded_user_ids\""
     },
     "STRINGCENTER_BUNDLE_PATH": {
       "key": null,
