@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-17T20:20:30.686Z",
-  "sync": "2026-11-16T16:00:37Z",
-  "commit": "a284320",
-  "commit_date": "2026-11-17",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/a284320b66a9dce35e6f5d6b052ee308eeb12326",
+  "read_at": "2026-11-18T19:50:06.514Z",
+  "sync": "2026-11-17T16:00:33Z",
+  "commit": "9081b33",
+  "commit_date": "2026-11-18",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/9081b332f25634db1c3249ebd3d56fba332fd2e6",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -327,7 +327,7 @@
     },
     "ShareViaCopyLinkWeight": {
       "key": "rust_home_mixer_share_via_copy_link_weight",
-      "value": 0
+      "value": 20
     },
     "DwellWeight": {
       "key": "rust_home_mixer_dwell_weight",
@@ -729,6 +729,26 @@
       "key": "rust_home_mixer_ads_user_state_spacing",
       "value": "vec![]"
     },
+    "AdsPageScoreKeepPct": {
+      "key": "rust_home_mixer_ads_page_score_keep_pct",
+      "value": "vec![]"
+    },
+    "AdsPageScoreSpacing": {
+      "key": "rust_home_mixer_ads_page_score_spacing",
+      "value": "vec![]"
+    },
+    "AdsPageScoreLowThreshold": {
+      "key": "rust_home_mixer_ads_page_score_low_threshold",
+      "value": 0
+    },
+    "AdsPageScoreHighThreshold": {
+      "key": "rust_home_mixer_ads_page_score_high_threshold",
+      "value": 0
+    },
+    "AdsPageScoreTopK": {
+      "key": "rust_home_mixer_ads_page_score_top_k",
+      "value": 20
+    },
     "EnableAdsOnlyTimeline": {
       "key": "rust_home_mixer_enable_ads_only_timeline",
       "value": false
@@ -800,6 +820,34 @@
     "PhoenixRequestCacheSideEffectTtlSeconds": {
       "key": "rust_home_mixer_phoenix_request_cache_side_effect_ttl_seconds",
       "value": 10800
+    },
+    "EnableTeacherScoreSideEffect": {
+      "key": "rust_home_mixer_enable_teacher_score_side_effect",
+      "value": false
+    },
+    "TeacherPhoenixCluster": {
+      "key": "rust_home_mixer_teacher_phoenix_cluster",
+      "value": "\"\""
+    },
+    "TeacherSampleBps": {
+      "key": "rust_home_mixer_teacher_sample_bps",
+      "value": 0
+    },
+    "TeacherTopK": {
+      "key": "rust_home_mixer_teacher_top_k",
+      "value": 64
+    },
+    "TeacherActionIndices": {
+      "key": "rust_home_mixer_teacher_action_indices",
+      "value": "vec![]"
+    },
+    "TeacherTimeoutMs": {
+      "key": "rust_home_mixer_teacher_timeout_ms",
+      "value": 2000
+    },
+    "TeacherTtlSeconds": {
+      "key": "rust_home_mixer_teacher_ttl_seconds",
+      "value": 3000
     },
     "EnableUrtMigrationComponents": {
       "key": "rust_home_mixer_enable_urt_migration_components",

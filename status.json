@@ -1,15 +1,24 @@
 {
-  "checked_at": "2026-11-17T20:20:30.686Z",
-  "label": "NOV 17, 2026",
-  "commit": "a284320",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/a284320b66a9dce35e6f5d6b052ee308eeb12326",
-  "sync": "2026-11-16T16:00:37Z",
-  "headline_moved": [],
+  "checked_at": "2026-11-18T19:50:06.514Z",
+  "label": "NOV 18, 2026",
+  "commit": "9081b33",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/9081b332f25634db1c3249ebd3d56fba332fd2e6",
+  "sync": "2026-11-17T16:00:33Z",
+  "headline_moved": [
+    {
+      "date": "2026-11-18",
+      "commit": "9081b33",
+      "name": "ShareViaCopyLinkWeight",
+      "from": 0,
+      "to": 20,
+      "label": "Copy-link shares"
+    }
+  ],
   "helps": [
     {
       "name": "ShareViaCopyLinkWeight",
       "label": "Share (copy link)",
-      "value": 0
+      "value": 20
     },
     {
       "name": "ReplyWeight",
@@ -66,12 +75,12 @@
   ],
   "recent": [
     {
-      "date": "2026-11-05",
-      "commit": "021afa4",
-      "name": "FavoriteWeight",
-      "from": 0.66,
-      "to": 0.708,
-      "label": "Likes",
+      "date": "2026-11-18",
+      "commit": "9081b33",
+      "name": "ShareViaCopyLinkWeight",
+      "from": 0,
+      "to": 20,
+      "label": "Copy-link shares",
       "up": true
     },
     {
@@ -107,7 +116,7 @@
     "ReplyWeight": 5,
     "QuoteWeight": 5,
     "ShareViaDmWeight": 5,
-    "ShareViaCopyLinkWeight": 0,
+    "ShareViaCopyLinkWeight": 20,
     "ShareWeight": 2.118,
     "RetweetWeight": 1,
     "FavoriteWeight": 0.708,
