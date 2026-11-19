@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-18T19:50:06.514Z",
-  "sync": "2026-11-17T16:00:33Z",
-  "commit": "9081b33",
-  "commit_date": "2026-11-18",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/9081b332f25634db1c3249ebd3d56fba332fd2e6",
+  "read_at": "2026-11-19T19:50:42.216Z",
+  "sync": "2026-11-18T16:00:39Z",
+  "commit": "b551517",
+  "commit_date": "2026-11-19",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/b55151777cd8901111c7b5985a724f671f05d2c4",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -445,6 +445,14 @@
       "key": "rust_home_mixer_vm_ranker_send_dpp_history",
       "value": false
     },
+    "VMRankerSendEngagementIneligible": {
+      "key": "rust_home_mixer_vm_ranker_send_engagement_ineligible",
+      "value": false
+    },
+    "EngagementLabelsMaxCandidates": {
+      "key": "rust_home_mixer_engagement_labels_max_candidates",
+      "value": 200
+    },
     "VMRankerDppHistoryMaxItems": {
       "key": "rust_home_mixer_vm_ranker_dpp_history_max_items",
       "value": 50
@@ -749,6 +757,10 @@
       "key": "rust_home_mixer_ads_page_score_top_k",
       "value": 20
     },
+    "AdsUserLoadEvenSpread": {
+      "key": "rust_home_mixer_ads_user_load_even_spread",
+      "value": false
+    },
     "EnableAdsOnlyTimeline": {
       "key": "rust_home_mixer_enable_ads_only_timeline",
       "value": false
@@ -823,27 +835,11 @@
     },
     "EnableTeacherScoreSideEffect": {
       "key": "rust_home_mixer_enable_teacher_score_side_effect",
-      "value": false
-    },
-    "TeacherPhoenixCluster": {
-      "key": "rust_home_mixer_teacher_phoenix_cluster",
-      "value": "\"\""
-    },
-    "TeacherSampleBps": {
-      "key": "rust_home_mixer_teacher_sample_bps",
-      "value": 0
-    },
-    "TeacherTopK": {
-      "key": "rust_home_mixer_teacher_top_k",
-      "value": 64
+      "value": true
     },
     "TeacherActionIndices": {
       "key": "rust_home_mixer_teacher_action_indices",
-      "value": "vec![]"
-    },
-    "TeacherTimeoutMs": {
-      "key": "rust_home_mixer_teacher_timeout_ms",
-      "value": 2000
+      "value": "vec![1, 4, 5, 6, 11, 12, 13, 14, 16, 17, 21, 23, 25, 29, 30, 32, 33, 37, 38, 39, 59]"
     },
     "TeacherTtlSeconds": {
       "key": "rust_home_mixer_teacher_ttl_seconds",
