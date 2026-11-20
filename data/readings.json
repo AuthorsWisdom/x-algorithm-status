@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-19T19:50:42.216Z",
-  "sync": "2026-11-18T16:00:39Z",
-  "commit": "b551517",
-  "commit_date": "2026-11-19",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/b55151777cd8901111c7b5985a724f671f05d2c4",
+  "read_at": "2026-11-20T19:29:56.430Z",
+  "sync": "2026-11-19T16:00:34Z",
+  "commit": "ed78e06",
+  "commit_date": "2026-11-20",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/ed78e0645cfafcd026cfc1fd0da964f630533334",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -63,7 +63,7 @@
     },
     "ShadowTrafficPhoenixClusterRates": {
       "key": "rust_home_mixer_shadow_traffic_phoenix_cluster_rates",
-      "value": "vec![\n        \"Experiment12Fou:0\".to_string(),\n        \"Experiment18Fou:0.3\".to_string(),\n        \"Experiment19Fou:0.3\".to_string(),\n        \"Experiment22Fou:0.3\".to_string(),\n        \"Experiment23Fou:0.3\".to_string(),\n        \"Experiment24Fou:0.3\".to_string(),\n        \"Experiment25Fou:0.3\".to_string(),\n        \"Experiment26Fou:0.3\".to_string(),\n        \"Experiment27Fou:0.3\".to_string(),\n        \"Experiment28Fou:0.3\".to_string(),\n        \"Experiment29Fou:0.3\".to_string()\n    ]"
+      "value": "vec![\n        \"Experiment12Fou:0\".to_string(),\n        \"Experiment18Fou:0.3\".to_string(),\n        \"Experiment19Fou:0\".to_string(),\n        \"Experiment22Fou:0.3\".to_string(),\n        \"Experiment23Fou:0.3\".to_string(),\n        \"Experiment24Fou:0.3\".to_string(),\n        \"Experiment25Fou:0.3\".to_string(),\n        \"Experiment26Fou:0.3\".to_string(),\n        \"Experiment27Fou:0.3\".to_string(),\n        \"Experiment28Fou:0.3\".to_string(),\n        \"Experiment29Fou:0.3\".to_string()\n    ]"
     },
     "ShadowTrafficPhoenixClusterAggregationTypes": {
       "key": "rust_home_mixer_shadow_traffic_phoenix_cluster_aggregation_types",
@@ -224,6 +224,18 @@
     "EnablePageDecodeRerank": {
       "key": "rust_home_mixer_enable_page_decode_rerank",
       "value": false
+    },
+    "EnableRankerVmRank": {
+      "key": "rust_home_mixer_enable_ranker_vm_rank",
+      "value": false
+    },
+    "PageDecodeEta": {
+      "key": "rust_home_mixer_page_decode_eta",
+      "value": 0
+    },
+    "PageDecodePriorTau": {
+      "key": "rust_home_mixer_page_decode_prior_tau",
+      "value": 0.2
     },
     "PageDecodePoolN": {
       "key": "rust_home_mixer_page_decode_pool_n",
@@ -703,7 +715,7 @@
     },
     "AdsFollowingMinPosts": {
       "key": "rust_home_mixer_ads_following_min_posts",
-      "value": 5
+      "value": 2
     },
     "EnableAdsBrandSafetyVerdictV2": {
       "key": "rust_home_mixer_ads_bs_v2_exp_enabled",
@@ -987,6 +999,10 @@
     },
     "EnableVideoCarouselTakeFromFeed": {
       "key": "rust_home_mixer_enable_video_carousel_take_from_feed",
+      "value": false
+    },
+    "EnableVideoCarouselMoeSource": {
+      "key": "rust_home_mixer_enable_video_carousel_moe_source",
       "value": false
     },
     "EnableVideoCarouselCandidatesLogging": {
