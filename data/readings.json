@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-20T19:29:56.430Z",
-  "sync": "2026-11-19T16:00:34Z",
-  "commit": "ed78e06",
-  "commit_date": "2026-11-20",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/ed78e0645cfafcd026cfc1fd0da964f630533334",
+  "read_at": "2026-11-21T18:33:35.931Z",
+  "sync": "2026-11-20T16:00:34Z",
+  "commit": "269340c",
+  "commit_date": "2026-11-21",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/269340ce2eb8ca785bafa4f2c17a2e8b752bccd3",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -16,6 +16,10 @@
     "PhoenixColdStartMaxResults": {
       "key": "rust_home_mixer_phoenix_cold_start_max_results",
       "value": 200
+    },
+    "PhoenixRetrievalDatasetTopK": {
+      "key": "rust_home_mixer_phoenix_retrieval_dataset_top_k",
+      "value": "\"\""
     },
     "ThunderMaxResults": {
       "key": "rust_home_mixer_thunder_max_results",
@@ -545,6 +549,10 @@
       "key": "rust_home_mixer_enable_under_the_hood_frame",
       "value": false
     },
+    "EnableUnderTheHoodSetting": {
+      "key": "rust_home_mixer_enable_under_the_hood_setting",
+      "value": false
+    },
     "MaxPostsToCache": {
       "key": "rust_home_mixer_max_posts_to_cache",
       "value": 750
@@ -1003,6 +1011,10 @@
     },
     "EnableVideoCarouselMoeSource": {
       "key": "rust_home_mixer_enable_video_carousel_moe_source",
+      "value": false
+    },
+    "EnableVideoCarouselMoeOnly": {
+      "key": "rust_home_mixer_enable_video_carousel_moe_only",
       "value": false
     },
     "EnableVideoCarouselCandidatesLogging": {
