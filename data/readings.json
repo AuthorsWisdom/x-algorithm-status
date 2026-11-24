@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-23T23:12:58.085Z",
-  "sync": "2026-11-20T16:00:34Z",
-  "commit": "269340c",
-  "commit_date": "2026-11-21",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/269340ce2eb8ca785bafa4f2c17a2e8b752bccd3",
+  "read_at": "2026-11-24T21:49:53.911Z",
+  "sync": "2026-11-23T16:00:40Z",
+  "commit": "e005f95",
+  "commit_date": "2026-11-24",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/e005f9528e504596f2c024a274d5fb533ce6488a",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -863,7 +863,7 @@
     },
     "TeacherTtlSeconds": {
       "key": "rust_home_mixer_teacher_ttl_seconds",
-      "value": 3000
+      "value": 10800
     },
     "EnableUrtMigrationComponents": {
       "key": "rust_home_mixer_enable_urt_migration_components",
@@ -1015,6 +1015,22 @@
     },
     "EnableVideoCarouselMoeOnly": {
       "key": "rust_home_mixer_enable_video_carousel_moe_only",
+      "value": false
+    },
+    "EnableVideoCarouselPopularVideoSource": {
+      "key": "rust_home_mixer_enable_video_carousel_popular_video_source",
+      "value": false
+    },
+    "VideoCarouselPopularVideoClusterId": {
+      "key": "rust_home_mixer_video_carousel_popular_video_cluster_id",
+      "value": "\"Experiment26Fou\""
+    },
+    "VideoCarouselPopularVideoMaxResults": {
+      "key": "rust_home_mixer_video_carousel_popular_video_max_results",
+      "value": 100
+    },
+    "EnableVideoCarouselPopularOnly": {
+      "key": "rust_home_mixer_enable_video_carousel_popular_only",
       "value": false
     },
     "EnableVideoCarouselCandidatesLogging": {
