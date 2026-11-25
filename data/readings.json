@@ -1,9 +1,9 @@
 {
-  "read_at": "2026-11-24T21:49:53.911Z",
-  "sync": "2026-11-23T16:00:40Z",
-  "commit": "e005f95",
-  "commit_date": "2026-11-24",
-  "commit_url": "https://github.com/xai-org/x-algorithm/commit/e005f9528e504596f2c024a274d5fb533ce6488a",
+  "read_at": "2026-11-25T20:56:11.972Z",
+  "sync": "2026-11-24T16:00:39Z",
+  "commit": "52d4598",
+  "commit_date": "2026-11-25",
+  "commit_url": "https://github.com/xai-org/x-algorithm/commit/52d45989090e63992ba04e4f6cfccd73bf8cc05c",
   "values": {
     "PhoenixMaxResults": {
       "key": "rust_home_mixer_phoenix_max_results",
@@ -553,6 +553,10 @@
       "key": "rust_home_mixer_enable_under_the_hood_setting",
       "value": false
     },
+    "EnableUnderTheHoodLimit": {
+      "key": "rust_home_mixer_enable_under_the_hood_limit",
+      "value": false
+    },
     "MaxPostsToCache": {
       "key": "rust_home_mixer_max_posts_to_cache",
       "value": 750
@@ -939,6 +943,14 @@
     },
     "JetfuelFrameGrokbotSuggestedTasksFatigueHours": {
       "key": "rust_home_mixer_jetfuel_frame_grokbot_suggested_tasks_fatigue_hours",
+      "value": 6
+    },
+    "EnableJetfuelFrameGrokbotBlackFriday": {
+      "key": "rust_home_mixer_jetfuel_frame_grokbot_black_friday_enabled",
+      "value": false
+    },
+    "JetfuelFrameGrokbotBlackFridayFatigueHours": {
+      "key": "rust_home_mixer_jetfuel_frame_grokbot_black_friday_fatigue_hours",
       "value": 6
     },
     "EnableFeedSurvey": {
